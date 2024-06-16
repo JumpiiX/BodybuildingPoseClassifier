@@ -1,7 +1,7 @@
 # Bodybuilding Pose Classifier
 
 ## Project Overview
-The Bodybuilding Pose Classifier is a machine learning project developed as a capstone for the Machine Learning Certificate from the University of London. This model is trained to identify and classify various bodybuilding poses from images. The aim of this project is to demonstrate the application of deep learning techniques for automated image recognition in specific sports disciplines.
+This model is trained to identify and classify various bodybuilding poses from images. The aim of this project is to demonstrate the application of deep learning techniques for automated image recognition in specific sports disciplines.
 
 ## Model Description
 The model uses a Convolutional Neural Network (CNN) architecture to recognize specific poses from images of bodybuilders. It has been trained with training data and validated with validation data to ensure the accuracy and robustness of the model.
