@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bodybuilding Pose Classifier</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: #FFFFFF;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            text-align: center;
+            background-color: #1E1E1E;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+        .pose {
+            font-size: 24px;
+            margin-top: 20px;
+        }
+        a {
+            color: #6200EE;
+            text-decoration: none;
+            margin-top: 20px;
+            display: inline-block;
+        }
+        a:hover {
+            color: #3700B3;
+        }
+        h1 {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Prediction Result</h1>
+    <div class="pose">Predicted pose: {{ pose }}</div>
+    <a href="/">Upload another file</a>
+</div>
+</body>
+</html>
