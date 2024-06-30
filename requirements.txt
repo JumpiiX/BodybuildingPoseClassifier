@@ -1,5 +1,7 @@
+Flask
 tensorflow
 keras
 numpy
 matplotlib
 pillow
+scipy
